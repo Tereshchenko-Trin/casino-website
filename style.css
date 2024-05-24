@@ -14,8 +14,7 @@ button {
 
 .header, .footer {
 	background-color: #000;
-	padding-top: 20px;
-	padding-bottom: 20px;
+	padding: 20px 0px;
 }
 
 .container{
