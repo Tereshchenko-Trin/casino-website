@@ -1,0 +1,20 @@
+@mixin h2-title() {
+	font-family: 'Lato', sans-serif;
+	font-weight: 500;
+	font-size: 110px;
+	line-height: 143px;
+}
+
+@mixin regular_text() {
+	font-family: 'Futura PT', sans-serif;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 31px;
+}
+
+@mixin card_text() {
+	font-family: 'Futura PT', sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 26px;
+}
