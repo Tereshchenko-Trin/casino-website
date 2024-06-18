@@ -1,20 +1,27 @@
-@mixin h2-title() {
+@mixin h2-110title() {
 	font-family: 'Lato', sans-serif;
 	font-weight: 500;
-	font-size: 110px;
-	line-height: 143px;
+	font-size: 6.875rem;
+	line-height: 8.9375rem;
 }
 
-@mixin regular_text() {
+@mixin h3-36title() {
 	font-family: 'Futura PT', sans-serif;
-	font-weight: 400;
-	font-size: 24px;
-	line-height: 31px;
+	font-weight: 600;
+	font-size: 2.25rem;
+	line-height: 2.6875rem;
 }
 
-@mixin card_text() {
+@mixin regular_24text() {
 	font-family: 'Futura PT', sans-serif;
 	font-weight: 400;
-	font-size: 20px;
-	line-height: 26px;
+	font-size: 1.5rem;
+	line-height: 1.9375rem;
+}
+
+@mixin card_20text() {
+	font-family: 'Futura PT', sans-serif;
+	font-weight: 400;
+	font-size: 1.25rem;
+	line-height: 1.625rem;
 }
