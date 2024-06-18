@@ -431,10 +431,6 @@ button {
 		&__text {
 			text-align: center;
 		}
-
-		&__button:hover {
-			background: none;
-		}
 	}
 
 	@media (max-width: 660px) {
@@ -746,10 +742,6 @@ button {
 	}
 
 	@media (max-width: 768px) {
-		&__card:hover {
-			transform: none;
-		}
-
 		&__text-item {
 			max-width: 170px;
 		}
@@ -1109,10 +1101,6 @@ button {
 		&__text-subtitle {
 			transform: translateX(230%);
 		}
-
-		&__card:hover {
-			transform: none;
-		}
 	}
 
 	@media (max-width: 662px) {
@@ -1321,17 +1309,6 @@ button {
 	@media (max-width: 992px) {
 		&__title {
 			font-size: 6rem;
-		}
-	}
-	
-	@media (max-width: 768px) {
-		&__card:hover {
-			transform: none;
-		}
-
-		&__pagination-wrapper:not(.no-hover):hover {
-			transform: scale(1.15);
-			background-color: #941313;
 		}
 	}
 	
@@ -1607,10 +1584,6 @@ button {
 
 		&__container::before {
 			top: -6%;
-		}
-
-		&__card:hover {
-			transform: none;
 		}
 	}
 
@@ -2202,10 +2175,6 @@ button {
 		&__text-wrapper {
 			max-width: 600px;
 		}
-
-		&__card:hover {
-			transform: none;
-		}
 	}
 	
 	@media (max-width: 576px) {
@@ -2399,10 +2368,6 @@ button {
 		&__title-wrapper {
 			max-width: 600px;
 		}
-
-		&__button:hover {
-			background: none;
-		}
 	}
 
 	@media (max-width: 640px) {
@@ -2550,5 +2515,141 @@ button {
 @media (max-width: 420px) {
 	html {
 		font-size: 10px;
+	}
+}
+
+@media (hover: hover) {
+	.website__navigation-link:hover {
+		color: $red;
+		transform: translate(0.1875rem, 0.1875rem);
+	}
+
+    .website__social-item:hover {
+		transform: translate(0.1875rem, 0.1875rem);
+	}
+
+    .website__button:hover {
+		transform: translate(0.1875rem, 0.1875rem);
+	}
+
+    .introduction__button:hover {
+		transform: scale(1.05);
+		border: 2px solid $red;
+		background-color: transparent;
+	}
+
+    .ticker__first-line:hover {
+		animation-play-state: paused;
+	}
+
+    .ticker__second-line:hover {
+		animation-play-state: paused;
+	}
+
+    .ticker__line-item:hover {
+		transform: scale(1.2);
+	}
+
+    .goals__card:hover {
+		transform: scale(1.05);
+	}
+
+    .staking__card:hover {
+		transform: scale(1.05);
+	}
+
+    .packages__pagination-wrapper:hover {
+		transform: scale(1.15);
+		background-color: #941313;
+	}
+
+    .packages__card:hover {
+		transform: translate(0%, -3%);
+	}
+
+    .referral__card:hover {
+		transform: scale(1.03);
+	}
+
+    .roadmap__card:hover {
+		transform: scale(1.1);
+	}
+
+    .conclusion__button:hover {
+		transform: scale(1.05);
+		border: 2px solid $red;
+		background-color: transparent;
+	}
+
+    .conclusion__agreement:hover {
+		color: #941313;
+	}
+
+	.conclusion__policy:hover {
+		color: #941313;
+	}
+}
+
+@media (hover: none) {
+	.website__navigation-link:hover {
+		color: $red;
+		transform: translate(0.1875rem, 0.1875rem);
+	}
+
+    .website__social-item:hover {
+		transform: translate(0.1875rem, 0.1875rem);
+	}
+
+    .website__button:hover {
+		transform: translate(0.1875rem, 0.1875rem);
+	}
+
+    .introduction__button:hover {
+		transform: scale(1.05);
+		border: 2px solid $red;
+		background-color: transparent;
+	}
+
+    .ticker__first-line:hover {
+		animation-play-state: paused;
+	}
+
+    .ticker__second-line:hover {
+		animation-play-state: paused;
+	}
+
+    .ticker__line-item:hover {
+		transform: scale(1.2);
+	}
+
+    .goals__card:hover {
+		transform: scale(1.05);
+	}
+
+    .staking__card:hover {
+		transform: scale(1.05);
+	}
+
+    .packages__pagination-wrapper:hover {
+		transform: scale(1.15);
+		background-color: #941313;
+	}
+
+    .packages__card:hover {
+		transform: translate(0%, -3%);
+	}
+
+    .referral__card:hover {
+		transform: scale(1.03);
+	}
+
+    .roadmap__card:hover {
+		transform: scale(1.1);
+	}
+
+    .conclusion__button:hover {
+		transform: scale(1.05);
+		border: 2px solid $red;
+		background-color: transparent;
 	}
 }
